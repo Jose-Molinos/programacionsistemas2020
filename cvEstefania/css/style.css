@@ -46,6 +46,6 @@ body{
 }
 #botones{
     width: 100%;
-    display: block;
+    display: flex;
     justify-content: center;
 }
