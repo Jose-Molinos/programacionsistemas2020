@@ -1,5 +1,5 @@
 $(document).ready(()=>{
-    var nombre = prompt("Que version de Cv te gusta");
+    var nombre = prompt("Como te llamas");
     $("nombre").text(nombre);
     $("#btnDatosPersonales").click(()=>{
         $("#datospersonales").show()
