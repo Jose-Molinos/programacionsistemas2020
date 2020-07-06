@@ -1,6 +1,6 @@
 $(document).ready(()=>{
-    var nombre=prompt("Introduce tu nombre: ");
-    $("#nombre").text(nombre)//
+   // var nombre=prompt("Introduce tu nombre: ");
+   // $("#nombre").text(nombre);//
 
     $("#btnFormacion").click(()=>{
         $("#formacion").show();
