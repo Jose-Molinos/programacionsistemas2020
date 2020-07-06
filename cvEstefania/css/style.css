@@ -42,7 +42,8 @@ body{
      width: 400px;
     font-size: 16;
     border: 5px solid rgb(255, 254, 255);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font: size 18;
 }
 #botones{
     width: 100%;
