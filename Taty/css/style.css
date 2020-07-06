@@ -1,0 +1,17 @@
+*{
+    border: 1px solid black;
+}
+h2{
+    text-shadow: blue;   
+    
+}
+
+#articulos{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.contenido{
+    display: none;
+ }
