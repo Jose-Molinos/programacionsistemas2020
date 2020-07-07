@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+#conceptos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.none{
+    display: none;
+    color: darkturquoise;
+  
+}
+.encabezado{
+
+ border: 2px coral solid;
+ margin-right: 200px;
+ background-color:greenyellow;
+ color: darkorange;
+}
+.imagenes{
+    width: 50px;
+    display: flex;
+    align-items: center;
+
+}
