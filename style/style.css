@@ -1,4 +1,12 @@
+.border-3 {
+    border-width: 3px !important;
+    border-style: solid;
+}
 .Weather{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+}
+.Tiempo{
+    padding: 10px;
 }

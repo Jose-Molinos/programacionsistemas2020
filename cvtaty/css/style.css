@@ -1,17 +1,90 @@
+  
 *{
     border: 1px solid black;
-}
-h2{
-    text-shadow: blue;   
-    
-}
 
-#articulos{
+}
+.titulo{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-between;
 
 }
+h1{
+    font-size: 45px;
+}
+  img{
+        float: right;
+        }
+
+        .boxes button {     
+        display: block;
+        width: 100%;
+        padding: 15px;
+        border: none;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        background:rosybrown;
+        color: #000;
+      }
+       
+      .boxes button:nth-of-type(even) {
+        background: rosybrown;
+      }
+     
+      .boxes button:focus {
+        outline: none;
+        color: #fff;
+        background: firebrick;
+      }
+  
+        .boxes button {
+          display: table-cell;
+          float: right;
+        width: 20%;
+        }
+  .texto{
+    display: flex;  
+    justify-content: space-between;
+    text-justify: auto;
+   
+  }    
+ 
+
+h2{ 
+   color: blue;
+   display: flex;
+   justify-content: space-between;
+   padding:0px 10px;
+    }
+
 .contenido{
     display: none;
+    color: black;
+    padding: 1px 20px;
+    font-size: 18px;
+    font-style: italic;
+  
  }
+
+ .letras{
+ padding: 10px;
+ margin-left: 10px;
+}
+ h3{
+     color: rgb(78, 61, 139);
+     display: flex;
+     justify-content: space-between;
+     padding:0px 10px;
+ }
+ 
+ p{
+     font-size: 18px;
+     font-style: normal;
+ }
+ .imagenFoto{
+     width: 300px;
+ }
+
+
