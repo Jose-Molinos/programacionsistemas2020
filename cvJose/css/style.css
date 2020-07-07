@@ -20,4 +20,12 @@ img {
     height: 200px;
 }
 
+.datos {
+    text-align: left;
+}
 
+#botones {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
