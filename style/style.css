@@ -4,5 +4,9 @@
 }
 .Weather{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+}
+.Tiempo{
+    padding: 10px;
 }

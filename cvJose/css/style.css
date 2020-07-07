@@ -1,9 +1,23 @@
 * {
-    border: 1px solid rgb(82, 9, 9);
+    border: 1px solid rgb(60,60,83);
+}
+h1 {
+    color: rgb(253, 253, 253);
+    font-size: grande;
+    text-align: center;
 }
 
-* h2 {
-    color: rgb(25, 85, 126);
+
+h2 {
+    color: rgb(199, 216, 228);
+}
+h3 {
+    font-size: mediano;
+    color: cornsilk;
+}
+p{
+    font-size: mediano;
+    color: rgb(219, 213, 185);
 }
 
 #apartado {
@@ -12,7 +26,7 @@
 }
 
 body {
-    background-color: rgb(129, 214, 214);
+    background-color: rgb(60, 60, 83);
 }
 
 img {
@@ -34,4 +48,19 @@ img {
 }
 #Datos{
   display:none;
+}
+#Formacion{
+    display: none;
+}
+#Informatica{
+    display: none;
+}
+#OtrosDatos{
+    display: none;
+}
+#Cursos{
+    display: none;
+}
+#SituacionLaboral{
+    display: none;
 }
