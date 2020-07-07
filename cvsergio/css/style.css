@@ -14,10 +14,13 @@ body{
 .encabezado{
 
  border: 2px coral solid;
- margin-right: 800px;
- background-color: darkblue;
+ margin-right: 200px;
+ background-color:greenyellow;
  color: darkorange;
 }
-img{
+.imagenes{
     width: 50px;
+    display: flex;
+    align-items: center;
+
 }
