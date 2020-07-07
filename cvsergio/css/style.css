@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+#conceptos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.none{
+    display: none;
+    color: darkturquoise;
+  
+}
+.encabezado{
+
+ border: 2px coral solid;
+ margin-right: 800px;
+ background-color: darkblue;
+ color: darkorange;
+}
+img{
+    width: 50px;
+}
