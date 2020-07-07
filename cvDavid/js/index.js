@@ -1,6 +1,6 @@
 $(document).ready(()=>{
-    var nombre = prompt("Como te llamas");
-    $("nombre").text(nombre);
+/*    var nombre = prompt("Como te llamas");
+    $("nombre").text(nombre);*/
     $("#btnDatosPersonales").click(()=>{
         $("#datospersonales").show()
         $("#formacionacademica").hide();

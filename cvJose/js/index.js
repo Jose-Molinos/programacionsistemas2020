@@ -2,32 +2,26 @@ $(document).ready(() => {
 
 
     $("#btnDatos").click(() => {
-        $("#Datos").show();
-        $("#Experiencia").hide();
-        $("#Formacion").hide();
-        $("#Cursos").hide();
-        $("#Informatica").hide();
-        $("#OtrosDatos").hide();
-        $("#SituacionLaboral").hide();
+        $("#Datos").show();  
     });
+    $("#btnDatos").dblclick(() => {
+        $("#Datos").hide();  
+    });
+
     $("#btnExperiencia").click(() => {
         $("#Experiencia").show();
-        $("Datos").hide
-        $("#Formacion").hide();
-        $("#Cursos").hide();
-        $("#Informatica").hide();
-        $("#OtrosDatos").hide();
-        $("#SituacionLaboral").hide();
     });
+    $("#btnExperiencia").dblclick(() => {
+        $("#Experiencia").hide();
+    });
+
     $("#btnFormacion").click(() => {
         $("#Formacion").show();
-        $("Datos").hide
-        $("#Experiencia").hide();
-        $("#Cursos").hide();
-        $("#Informatica").hide();
-        $("#OtrosDatos").hide();
-        $("#SituacionLaboral").hide();
     });
+    $("#btnFormacion").dblclick(() => {
+        $("#Formacion").hide();
+    });
+
     $("#btnCursos").click(() => {
         $("#Cursos").show();
         $("Datos").hide
