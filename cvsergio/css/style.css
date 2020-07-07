@@ -14,13 +14,56 @@ body{
 .encabezado{
 
  border: 2px coral solid;
- margin-right: 200px;
- background-color:greenyellow;
+
+ background-color:blue;
  color: darkorange;
+ display: flex;
+ justify-content: space-between;
 }
 .imagenes{
-    width: 50px;
-    display: flex;
-    align-items: center;
 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+#icono{
+    width: 50px;
+    height: 50px;
+}
+#social{
+    display: flex;
+    justify-content: flex-start;
+}
+#nombre{
+    font-size: xx-large;
+}
+.boton{
+display: flex;
+justify-content: space-between;
+width: 300px;
+height: 50px;
+
+}
+#sergio{
+    border-radius: 100px;
+}
+#linked{
+    width: 200px;
+}
+#whapp{
+    width: 200px;
+}
+#instag{
+    width: 200px;
+    
+}
+#correo{
+    text-size-adjust:  ;
+    width: 200px;
+    color:black;
+    border:black solid 2px;
+    background-color: white;
+    text-align: center
+    
 }
