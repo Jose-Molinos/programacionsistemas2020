@@ -8,6 +8,7 @@
   <title>Programación de Sistemas 2020</title>
 
   <link href="./style/bootstrap.min.css" rel="stylesheet">
+  <link href="./style/style.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -57,7 +58,7 @@
 
       <hr>
 
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-lg-12 text-center py-4">
           <h1>Alumnos</h1>
         </div>
@@ -95,17 +96,38 @@
           <p><a class="btn btn-secondary" href="./cvAlcantara/" role="button">Ir a CV &raquo;</a></p>
         </div>
         <div class="col-lg-4">
+          <img class="rounded-circle" src="https://avatars1.githubusercontent.com/u/67758478?s=460&v=4" alt=""
+            width="140">
+          <h2>Sergio</h2>
+          <p><a class="btn btn-secondary" href="./cvSergio/" role="button">Ir a CV &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
           <img class="rounded-circle"
             src="https://avatars2.githubusercontent.com/u/57771392?s=460&u=1160a47ea72e8c1887c012a48afb3ccd1b589b7b&v=4"
             alt="" width="140">
           <h2>Taty</h2>
           <p><a class="btn btn-secondary" href="./cvTaty/" role="button">Ir a CV &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+        <div class="Proyectos">
+          <h2>Proyectos</h2>
+          <section class="Tiempo">
+            <h3>El Tiempo</h3>
+            <h4>Hoy-Vigo</h4>
+            <div class="Weather">
+            <div id="tiempo">
+            </div>
+            <div id="temperatura-min">
+            </div>
+            <div id="temperatura-max">
+            </div>
+</div>
+          </section>
+
         </div>
-      </div>
-
-    </div>
-
+    </div><!-- /.container -->
   </main>
   <script src="./js/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
 
 </html>
