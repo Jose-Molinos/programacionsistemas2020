@@ -5,6 +5,8 @@
 }
 
 a {
+    margin-left: 20px;
+    margin-right: 20px;
     text-decoration: none;
 }
 
@@ -36,11 +38,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
-}
-
-nav li {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 nav ul {
