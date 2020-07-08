@@ -6,7 +6,9 @@ h1 {
     font-size: grande;
     text-align: center;
 }
-
+a{
+    color: aquamarine;
+}
 
 h2 {
     color: rgb(199, 216, 228);
@@ -26,7 +28,9 @@ p{
 }
 
 body {
+    
     background-color: rgb(60, 60, 83);
+    
 }
 
 img {
